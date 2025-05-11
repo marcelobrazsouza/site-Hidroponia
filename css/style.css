@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+   
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.container img {
+    width: 70px;
+    margin-bottom: 20px;
+}
+.links{
+    background-color: #71c98c;
+    width: 200px;
+    padding: 20px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.links ul{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+
+}
+.links li{
+        margin-bottom: 10px;
+        background-color: #1b6b46;
+        border-radius: 30px;
+        padding: 10px;
+        width: 100%;
+}
+.links a{
+    font-size: 12px;
+    font-weight: 600;
+    color:white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto{
+    background-color: #e5e5e5;
+     flex-grow: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ion-icon{
+    font-size: 16px;
+    color: white;
+    margin-right: 5px;
+}
